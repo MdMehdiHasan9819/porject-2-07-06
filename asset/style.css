@@ -10,7 +10,7 @@
 .container{
         width: 1170px;
         margin: 0 auto;
-        color: aliceblue;
+        color: rgb(5, 92, 168);
         padding: 20px;
     }
 
@@ -41,6 +41,8 @@ a{
 
 /* common css end now */
 
+/*header and navbar css */
+
 #main-header{
     background-color: black;
 }
@@ -53,4 +55,21 @@ a{
     color: red;
     border-bottom: 5px solid green;
     padding: 10px;
+}
+
+/* main css start now */
+#banner{
+    height: 100vh;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.img-ban{
+    width: 350px;
 }
