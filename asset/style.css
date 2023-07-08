@@ -67,9 +67,96 @@ a{
     justify-content: space-around;
     height: 100vh;
     align-items: center;
+   
 }
 
+#banner{
+    background-image: url(../image/anas-alshanti-feXpdV001o4-unsplash.jpg), linear-gradient(45deg,rgb(8,8,8),#888 ) ;
+}
 
 .img-ban{
     width: 350px;
+}
+.banner-text>h1{
+font-size: 50px;
+font-weight: bolder;
+}
+.description{
+margin-top: 15px;
+color: red;
+font-size: 20px;
+}
+.btn1{
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: chocolate;
+    color: aliceblue;
+}
+.btn1:hover{
+    border: 4px solid rgb(219, 219, 238);
+    color: red;
+}
+/* this is about section css */
+
+.about-titel{
+    text-align: center;
+    color: blue;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 25px;
+}
+.about-head{
+    align-items: center;
+    color: rebeccapurple;
+}
+    .img-2{
+        width: 350px;
+    }
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+/* services container css start now */
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.services1{
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    border: 2px solid rgb(87, 83, 83);
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(31, 29, 29, 0.2);
+    background-color: rgb(102, 72, 32);
+    color: white;
+}
+.services2{
+    padding: 35px 15px;
+    border: 2px solid rgb(87, 83, 83);
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(31, 29, 29, 0.2);
+    background-color: rgb(102, 72, 32);
+    color: white;
+}
+.services3{
+    padding: 35px 15px;
+    border: 2px solid rgb(87, 83, 83);
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(31, 29, 29, 0.2);
+    background-color: rgb(102, 72, 32);
+    color: white;
+}
+.services-head{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+#services{
+    background-color: cadetblue;
 }
